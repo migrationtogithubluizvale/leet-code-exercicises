@@ -8,7 +8,7 @@ class Solution:
         while beg < end:
             self.swap(nums, beg, end)
             beg += 1
-            end -= 1
+            end -= 1    
     
     def nextPermutation(self, nums: List[int]) -> None:
         """
